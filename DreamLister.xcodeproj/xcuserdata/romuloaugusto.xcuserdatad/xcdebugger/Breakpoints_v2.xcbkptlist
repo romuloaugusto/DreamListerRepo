@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DreamLister/ItemDetailsVC.swift"
+            timestampString = "519782103.463136"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "loadItemData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DreamLister.ItemDetailsVC.loadItemData () -&gt; ()"
+                  moduleName = "DreamLister"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romuloaugusto/Desenvolvimento/Xcode/Udemy%20-%20iOS%2010%20Swift/DreamLister/DreamLister/ItemDetailsVC.swift"
+                  timestampString = "519456640.041918"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "1635">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DreamLister.ItemDetailsVC.loadItemData () -&gt; ()"
+                  moduleName = "DreamLister"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romuloaugusto/Desenvolvimento/Xcode/Udemy%20-%20iOS%2010%20Swift/DreamLister/DreamLister/ItemDetailsVC.swift"
+                  timestampString = "519456640.044404"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "1694">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
