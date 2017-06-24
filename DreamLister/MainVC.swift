@@ -69,20 +69,20 @@ class MainVC: UIViewController, UITableViewDataSource, UITableViewDelegate, NSFe
             let item = objs[indexPath.row]
             performSegue(withIdentifier: "ItemDetailsVC", sender: item)
         }
-        
     }
     
+    // Prepare to ItemDetails screen
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ItemDetailsVC" {
             if let destination = segue.destination as? ItemDetailsVC {
                 if let item = sender as? Item {
                     destination.itemToEdit = item
-                
                 }
             }
         }
     }
     
+    // Handle with the segment (Newest, Price, Title)
     @IBAction func segmentChange(_ sender: AnyObject) {
         attemptFetch()
         tableView.reloadData()
@@ -153,7 +153,6 @@ class MainVC: UIViewController, UITableViewDataSource, UITableViewDelegate, NSFe
                 tableView.insertRows(at: [indexPath], with: .fade)
             }
             break
-        
         }
     }
     
@@ -175,9 +174,7 @@ class MainVC: UIViewController, UITableViewDataSource, UITableViewDelegate, NSFe
         item3.details = "3.0-liter TFSI® twin-scroll turbocharged DOHC V6 engine with Audi valvelift system (354 hp/369 lb-ft)"
         
         ad.saveContext()
-        
     }
-
 
 }
 
