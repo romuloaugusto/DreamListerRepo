@@ -33,6 +33,9 @@
                                     <segment title="Title"/>
                                 </segments>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="segmentChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="dPY-Uy-qC7"/>
+                                </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="139" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2Zk-Ve-vWV">
                                 <rect key="frame" x="16" y="132" width="343" height="535"/>
@@ -140,6 +143,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="segment" destination="2cd-Hf-brT" id="vZd-cH-5g8"/>
                         <outlet property="tableView" destination="2Zk-Ve-vWV" id="w3D-3f-ka5"/>
                         <segue destination="Bby-oi-QDZ" kind="show" identifier="ItemDetailsVC" id="Oni-VL-gAi"/>
                     </connections>
